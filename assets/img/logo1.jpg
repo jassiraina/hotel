@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<!-- saved from url=(0106)https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf5ee8656388fc2">
+	<meta name="csrf-value" content="6a840e68e5e22f57e26e11abbb4eaaba">
+<script type="text/javascript" src="./logo1_files/02e09611df"></script><script src="./logo1_files/nr-1169.min.js.download"></script><script type="text/javascript" async="" src="./logo1_files/linkid.js.download"></script><script async="" src="./logo1_files/analytics.js.download"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1169.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn1.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn2.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn3.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn4.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn5.vectorstock.com/">
+
+	<title>Initial j gaming esport logo design modern Vector Image</title>
+	<meta name="description" content="Initial Gaming Esport Logo Design Modern Template isolated on black background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions..">
+	
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="og:type" content="product">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030">
+	<meta property="og:title" content="Initial j gaming esport logo design modern vector image on VectorStock">
+	<meta property="og:description" content="Initial Gaming Esport Logo Design Modern Template isolated on black background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+	<meta property="og:image:url" content="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+	<meta property="og:image:secure_url" content="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	<meta property="og:price:amount" content="0.69">
+	<meta property="og:price:currency" content="USD">
+	<meta property="product:price:amount" content="0.69">
+	<meta property="product:price:currency" content="USD">
+
+	<meta property="fb:app_id" content="241100862642313">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030">
+	<meta name="twitter:title" content="Initial j gaming esport logo design modern vector image">
+	<meta name="twitter:description" content="Initial Gaming Esport Logo Design Modern Template isolated on black background">
+	<meta name="twitter:image" content="https://cdn1.vectorstock.com/i/thumb-large/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+	<meta name="twitter:site" content="@VectorStock">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030">
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="./logo1_files/common1589843141.min.css">
+	<link rel="stylesheet" href="./logo1_files/vector1589843141.min.css">
+	<script src="./logo1_files/common1591744244.min.js.download"></script>
+	<script src="./logo1_files/vector1591744244.min.js.download"></script>
+<!-- Analytics --><script type="text/javascript">// Load GA script
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+// Setup
+ga('create', 'UA-2180430-2', 'none');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+		<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+							<ul>
+								<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+								<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+								<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+							</ul>
+						</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+
+
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="checkbox checked">
+							<label class="selected" for="vs_remember">
+								<span class="title">Stay Logged In</span>
+								<span class="icon"></span>
+								<input type="checkbox" id="vs_remember" name="vs_remember" value="yes" tabindex="3" checked="">
+							</label>
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 720px; max-width: 523px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/gaming-vectors">
+							<span itemprop="name">Gaming Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>
+					Initial j gaming esport logo design modern vector&nbsp;image														</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+						<noscript><img src="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg" title="Initial j gaming esport logo design modern vector image" alt="Initial j gaming esport logo design modern"></noscript>
+					<img src="./logo1_files/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg"></div>
+					<div class="lowres">
+						<img src="./logo1_files/initial-j-gaming-esport-logo-design-modern-vector-27758030(1).jpg" title="Initial j gaming esport logo design modern vector image" alt="Initial j gaming esport logo design modern">
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payments="3" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="27758030">
+					<input type="hidden" id="vector_title" value="Initial j gaming esport logo design modern">
+					<input type="hidden" id="vector_description" value="Initial Gaming Esport Logo Design Modern Template isolated on black background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030">
+					<input type="hidden" id="vector_media" value="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="Dreamaze">
+					<input type="hidden" id="account_user" value="0">
+
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset>
+									<label for="f_license_standard" class="checked">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Resale &amp; Reproduction</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Graphic Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Web Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Social Media</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Multi-user</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Resale Items</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Unlimited Runs</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+																<fieldset>
+									<label for="f_payment_standard_single-image" class="checked">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69c</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+																<fieldset>
+									<label for="f_payment_expanded_single-image" class="checked">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="29.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>29.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>29.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization" class="checked_">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="84" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="value"><small>$</small><var>84.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We'll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+					<div class="download_options">
+						<div class="wrap">
+							<div class="optgroup" data-action="download">
+								<span class="header">Download File/s:</span>
+								<div class="dropdown" data-value="zip">
+									<div class="display">
+										<span class="label"><strong>ZIP Archive</strong></span>
+										<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M10.6,12.8 15,17.2 19.4,12.8"></path></svg></span>
+									</div>
+									<div class="select">
+										<select>
+											<optgroup label="All Files">
+												<option value="zip" data-label="ZIP Archive" data-details="" data-url="" selected="selected">ZIP Archive</option>											</optgroup>
+											<optgroup label="Image">
+												<option value="jpg" data-label="High-res JPG" data-details="300 DPI+" data-url="">High-res JPG (300 DPI+)</option>												<option value="png" data-label="High-res PNG" data-details="300 DPI+" data-url="">High-res PNG (300 DPI+)</option>											</optgroup>
+											<optgroup label="Vector">
+												<option value="ai" data-label="Adobe Illustrator" data-details="v10+" data-url="">Adobe Illustrator (v10+)</option>												<option value="eps" data-label="Vector EPS" data-details="v8+" data-url="">Vector EPS (v8+)</option>												<option value="pdf" data-label="Vector PDF" data-details="" data-url="">Vector PDF</option>											</optgroup>
+										</select>
+									</div>
+								</div>
+								<button type="button" data-action="download_file">
+									<span class="label">Download ZIP</span>
+									<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M23.6,21.2 23.6,9.5 16.4,9.5 16.4,21.3 10.8,21.3 11,21.5 20,30.5 29.2,21.3"></path></svg></span>
+								</button>
+							</div>
+							<div class="optgroup" data-action="customization" data-status="uninitiated">
+								<span class="header">Image Customization:</span>
+								<ul class="actions">
+									<li>
+										<button type="button" data-job-url="/customizations">
+											<span class="label">View your job...</span>
+											<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M12.8,19.4 17.2,15 12.8,10.6"></path></svg></span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+						<noscript><img src="https://cdn1.vectorstock.com/i/1000x1000/80/30/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg" title="Initial j gaming esport logo design modern vector image" alt="Initial j gaming esport logo design modern"></noscript>
+					<img src="./logo1_files/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg"></div>
+					<div class="lowres">
+						<img src="./logo1_files/initial-j-gaming-esport-logo-design-modern-vector-27758030(1).jpg" title="Initial j gaming esport logo design modern vector image" alt="Initial j gaming esport logo design modern">
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<h4>Share on</h4>
+							<ul>
+								<li class="pinterest"><button type="button" data-action="pinterest"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Pinterest</span></span></button></li>
+								<li class="facebook"><button type="button" data-action="facebook"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Facebook</span></span></button></li>
+								<li class="twitter"><button type="button" data-action="twitter"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Twitter</span></span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>27758030</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Dreamaze" rel="nofollow">Dreamaze</a><button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">♥</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/Product" itemscope="">
+					<meta itemprop="sku" content="27758030">
+					<meta itemprop="productID" content="27758030">
+					<meta itemprop="name" content="Initial j gaming esport logo design modern">
+					<meta itemprop="description" content="Initial Gaming Esport Logo Design Modern Template isolated on black background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<meta itemprop="releaseDate" content="2019-11-07">
+					<link itemprop="image" href="./logo1_files/initial-j-gaming-esport-logo-design-modern-vector-27758030.jpg">
+					
+					<div itemprop="brand" itemtype="http://schema.org/Thing" itemscope="">
+						<meta itemprop="name" content="VectorStock">
+					</div>
+					<div itemprop="offers" itemtype="http://schema.org/Offer" itemscope="">
+						<link itemprop="url" href="https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030">
+						<meta itemprop="availability" content="https://schema.org/InStock">
+						<div itemprop="price">0.69</div>
+						<div itemprop="priceCurrency">USD</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/81/89/e-gamer-community-logo-symbol-icon-vector-26128189.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/e-gamer-community-logo-symbol-icon-vector-26128189" title="e gamer community logo symbol icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/81/89/e-gamer-community-logo-symbol-icon-vector-26128189.jpg" title="e gamer community logo symbol icon" alt="e gamer community logo symbol icon vector image"></noscript><img src="./logo1_files/e-gamer-community-logo-symbol-icon-vector-26128189.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/64/51/initial-letter-d-logo-design-template-element-vector-21636451.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/initial-letter-d-logo-design-template-element-vector-21636451" title="initial letter d logo design template element vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/64/51/initial-letter-d-logo-design-template-element-vector-21636451.jpg" title="initial letter d logo design template element" alt="initial letter d logo design template element vector image"></noscript><img src="./logo1_files/initial-letter-d-logo-design-template-element-vector-21636451.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/94/50/digital-font-initial-letter-logo-vector-24049450.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/digital-font-initial-letter-logo-vector-24049450" title="digital font initial letter logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/94/50/digital-font-initial-letter-logo-vector-24049450.jpg" title="digital font initial letter logo" alt="digital font initial letter logo vector image"></noscript><img src="./logo1_files/digital-font-initial-letter-logo-vector-24049450.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/91/86/game-retro-alphabet-on-black-old-tv-screen-vector-21669186.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/game-retro-alphabet-on-black-old-tv-screen-vector-21669186" title="game retro alphabet on black old tv screen vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/91/86/game-retro-alphabet-on-black-old-tv-screen-vector-21669186.jpg" title="game retro alphabet on black old tv screen" alt="game retro alphabet on black old tv screen vector image"></noscript><img src="./logo1_files/game-retro-alphabet-on-black-old-tv-screen-vector-21669186.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/33/14/neon-j-letter-logo-icon-design-with-creative-wing-vector-27973314.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/neon-j-letter-logo-icon-design-with-creative-wing-vector-27973314" title="neon j letter logo icon design with creative wing vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/33/14/neon-j-letter-logo-icon-design-with-creative-wing-vector-27973314.jpg" title="neon j letter logo icon design with creative wing" alt="neon j letter logo icon design with creative wing vector image"></noscript><img src="./logo1_files/neon-j-letter-logo-icon-design-with-creative-wing-vector-27973314.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/83/46/80-s-retro-alphabet-font-vintage-alphabet-vector-27008346.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/80-s-retro-alphabet-font-vintage-alphabet-vector-27008346" title="80 s retro alphabet font vintage alphabet vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/83/46/80-s-retro-alphabet-font-vintage-alphabet-vector-27008346.jpg" title="80 s retro alphabet font vintage alphabet" alt="80 s retro alphabet font vintage alphabet vector image"></noscript><img src="./logo1_files/80-s-retro-alphabet-font-vintage-alphabet-vector-27008346.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/68/14/battery-type-charger-power-energy-logo-vector-22426814.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/battery-type-charger-power-energy-logo-vector-22426814" title="battery type charger power energy logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/68/14/battery-type-charger-power-energy-logo-vector-22426814.jpg" title="battery type charger power energy logo" alt="battery type charger power energy logo vector image"></noscript><img src="./logo1_files/battery-type-charger-power-energy-logo-vector-22426814.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/17/97/bubble-with-initial-letter-j-graphic-design-vector-27221797.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/bubble-with-initial-letter-j-graphic-design-vector-27221797" title="bubble with initial letter j graphic design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/17/97/bubble-with-initial-letter-j-graphic-design-vector-27221797.jpg" title="bubble with initial letter j graphic design" alt="bubble with initial letter j graphic design vector image"></noscript><img src="./logo1_files/bubble-with-initial-letter-j-graphic-design-vector-27221797.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/18/66/letters-vv-logo-3d-initials-isometric-shape-vector-30251866.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/letters-vv-logo-3d-initials-isometric-shape-vector-30251866" title="letters vv logo 3d initials isometric shape vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/18/66/letters-vv-logo-3d-initials-isometric-shape-vector-30251866.jpg" title="letters vv logo 3d initials isometric shape" alt="letters vv logo 3d initials isometric shape vector image"></noscript><img src="./logo1_files/letters-vv-logo-3d-initials-isometric-shape-vector-30251866.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/22/58/pixel-retro-style-video-game-font-vector-25562258.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/pixel-retro-style-video-game-font-vector-25562258" title="pixel retro style video game font vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/22/58/pixel-retro-style-video-game-font-vector-25562258.jpg" title="pixel retro style video game font" alt="pixel retro style video game font vector image"></noscript><img src="./logo1_files/pixel-retro-style-video-game-font-vector-25562258.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/06/87/horizontal-colorful-neon-lets-play-sign-vector-27130687.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/horizontal-colorful-neon-lets-play-sign-vector-27130687" title="horizontal colorful neon lets play sign vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/06/87/horizontal-colorful-neon-lets-play-sign-vector-27130687.jpg" title="horizontal colorful neon lets play sign" alt="horizontal colorful neon lets play sign vector image"></noscript><img src="./logo1_files/horizontal-colorful-neon-lets-play-sign-vector-27130687.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/93/55/initial-letter-cg-logo-template-design-vector-21949355.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/initial-letter-cg-logo-template-design-vector-21949355" title="initial letter cg logo template design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/93/55/initial-letter-cg-logo-template-design-vector-21949355.jpg" title="initial letter cg logo template design" alt="initial letter cg logo template design vector image"></noscript><img src="./logo1_files/initial-letter-cg-logo-template-design-vector-21949355.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/69/09/s-law-logo-vector-25716909.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/s-law-logo-vector-25716909" title="s law logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/69/09/s-law-logo-vector-25716909.jpg" title="s law logo" alt="s law logo vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/83/65/logo-design-with-combination-letter-t-and-l-black-vector-27938365.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/logo-design-with-combination-letter-t-and-l-black-vector-27938365" title="logo design with combination letter t and l black vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/83/65/logo-design-with-combination-letter-t-and-l-black-vector-27938365.jpg" title="logo design with combination letter t and l black" alt="logo design with combination letter t and l black vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/43/99/game-letter-g-logo-icon-design-vector-22734399.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/game-letter-g-logo-icon-design-vector-22734399" title="game letter g logo icon design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/43/99/game-letter-g-logo-icon-design-vector-22734399.jpg" title="game letter g logo icon design" alt="game letter g logo icon design vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/23/82/initial-a-logo-design-inspiration-vector-24242382.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-a-logo-design-inspiration-vector-24242382" title="initial a logo design inspiration vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/23/82/initial-a-logo-design-inspiration-vector-24242382.jpg" title="initial a logo design inspiration" alt="initial a logo design inspiration vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/39/58/abstract-letter-n-template-vector-25133958.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-letter-n-template-vector-25133958" title="abstract letter n template vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/39/58/abstract-letter-n-template-vector-25133958.jpg" title="abstract letter n template" alt="abstract letter n template vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/17/54/abstract-colorful-liquid-splash-alphabet-modern-vector-23851754.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-colorful-liquid-splash-alphabet-modern-vector-23851754" title="abstract colorful liquid splash alphabet modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/17/54/abstract-colorful-liquid-splash-alphabet-modern-vector-23851754.jpg" title="abstract colorful liquid splash alphabet modern" alt="abstract colorful liquid splash alphabet modern vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/59/50/letters-a-and-u-monogram-logo-one-wide-stripe-vector-30055950.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/letters-a-and-u-monogram-logo-one-wide-stripe-vector-30055950" title="letters a and u monogram logo one wide stripe vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/59/50/letters-a-and-u-monogram-logo-one-wide-stripe-vector-30055950.jpg" title="letters a and u monogram logo one wide stripe" alt="letters a and u monogram logo one wide stripe vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/35/22/c-letter-overlapping-logo-icon-vector-24043522.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/c-letter-overlapping-logo-icon-vector-24043522" title="c letter overlapping logo icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/35/22/c-letter-overlapping-logo-icon-vector-24043522.jpg" title="c letter overlapping logo icon" alt="c letter overlapping logo icon vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="27293353" data-title="a beautiful set capital letters inscribed in a" data-src="https://cdn4.vectorstock.com/i/thumbs/33/53/a-beautiful-set-capital-letters-inscribed-in-a-vector-27293353.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-beautiful-set-capital-letters-inscribed-in-a-vector-27293353" title="a beautiful set capital letters inscribed in a vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/33/53/a-beautiful-set-capital-letters-inscribed-in-a-vector-27293353.jpg" title="a beautiful set capital letters inscribed in a" alt="a beautiful set capital letters inscribed in a vector image"></noscript></a></li>
+						<li data-id="24532614" data-title="lets play neon text design template gaming" data-src="https://cdn5.vectorstock.com/i/thumbs/26/14/lets-play-neon-text-design-template-gaming-vector-24532614.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/lets-play-neon-text-design-template-gaming-vector-24532614" title="lets play neon text design template gaming vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/26/14/lets-play-neon-text-design-template-gaming-vector-24532614.jpg" title="lets play neon text design template gaming" alt="lets play neon text design template gaming vector image"></noscript></a></li>
+						<li data-id="24001055" data-title="cube abstract sign emblem or logo template letter" data-src="https://cdn1.vectorstock.com/i/thumbs/10/55/cube-abstract-sign-emblem-or-logo-template-letter-vector-24001055.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cube-abstract-sign-emblem-or-logo-template-letter-vector-24001055" title="cube abstract sign emblem or logo template letter vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/10/55/cube-abstract-sign-emblem-or-logo-template-letter-vector-24001055.jpg" title="cube abstract sign emblem or logo template letter" alt="cube abstract sign emblem or logo template letter vector image"></noscript></a></li>
+						<li data-id="23790318" data-title="neon glowing sign heart for valentines day" data-src="https://cdn4.vectorstock.com/i/thumbs/03/18/neon-glowing-sign-heart-for-valentines-day-vector-23790318.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/neon-glowing-sign-heart-for-valentines-day-vector-23790318" title="neon glowing sign heart for valentines day vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/03/18/neon-glowing-sign-heart-for-valentines-day-vector-23790318.jpg" title="neon glowing sign heart for valentines day" alt="neon glowing sign heart for valentines day vector image"></noscript></a></li>
+						<li data-id="29213030" data-title="abstract v initial design logo" data-src="https://cdn1.vectorstock.com/i/thumbs/30/30/abstract-v-initial-design-logo-vector-29213030.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-v-initial-design-logo-vector-29213030" title="abstract v initial design logo vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/30/30/abstract-v-initial-design-logo-vector-29213030.jpg" title="abstract v initial design logo" alt="abstract v initial design logo vector image"></noscript></a></li>
+						<li data-id="24050052" data-title="creative initial letter e circle color logo" data-src="https://cdn3.vectorstock.com/i/thumbs/00/52/creative-initial-letter-e-circle-color-logo-vector-24050052.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/creative-initial-letter-e-circle-color-logo-vector-24050052" title="creative initial letter e circle color logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/00/52/creative-initial-letter-e-circle-color-logo-vector-24050052.jpg" title="creative initial letter e circle color logo" alt="creative initial letter e circle color logo vector image"></noscript></a></li>
+						<li data-id="21158737" data-title="sign of the letter j" data-src="https://cdn3.vectorstock.com/i/thumbs/87/37/sign-of-the-letter-j-vector-21158737.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/sign-of-the-letter-j-vector-21158737" title="sign of the letter j vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/87/37/sign-of-the-letter-j-vector-21158737.jpg" title="sign of the letter j" alt="sign of the letter j vector image"></noscript></a></li>
+						<li data-id="27766289" data-title="square letter oc logo" data-src="https://cdn5.vectorstock.com/i/thumbs/62/89/square-letter-oc-logo-vector-27766289.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/square-letter-oc-logo-vector-27766289" title="square letter oc logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/62/89/square-letter-oc-logo-vector-27766289.jpg" title="square letter oc logo" alt="square letter oc logo vector image"></noscript></a></li>
+						<li data-id="21470139" data-title="letter q line logo" data-src="https://cdn5.vectorstock.com/i/thumbs/01/39/letter-q-line-logo-vector-21470139.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/letter-q-line-logo-vector-21470139" title="letter q line logo vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/01/39/letter-q-line-logo-vector-21470139.jpg" title="letter q line logo" alt="letter q line logo vector image"></noscript></a></li>
+						<li data-id="31244155" data-title="abstract letter f logo design template creative" data-src="https://cdn1.vectorstock.com/i/thumbs/41/55/abstract-letter-f-logo-design-template-creative-vector-31244155.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/abstract-letter-f-logo-design-template-creative-vector-31244155" title="abstract letter f logo design template creative vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/41/55/abstract-letter-f-logo-design-template-creative-vector-31244155.jpg" title="abstract letter f logo design template creative" alt="abstract letter f logo design template creative vector image"></noscript></a></li>
+						<li data-id="30572979" data-title="set abstract and unique alphabet letters yaay" data-src="https://cdn5.vectorstock.com/i/thumbs/29/79/set-abstract-and-unique-alphabet-letters-yaay-vector-30572979.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-abstract-and-unique-alphabet-letters-yaay-vector-30572979" title="set abstract and unique alphabet letters yaay vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/29/79/set-abstract-and-unique-alphabet-letters-yaay-vector-30572979.jpg" title="set abstract and unique alphabet letters yaay" alt="set abstract and unique alphabet letters yaay vector image"></noscript></a></li>
+						<li data-id="28454348" data-title="initial letters sv monogram logo" data-src="https://cdn4.vectorstock.com/i/thumbs/43/48/initial-letters-sv-monogram-logo-vector-28454348.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-letters-sv-monogram-logo-vector-28454348" title="initial letters sv monogram logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/43/48/initial-letters-sv-monogram-logo-vector-28454348.jpg" title="initial letters sv monogram logo" alt="initial letters sv monogram logo vector image"></noscript></a></li>
+						<li data-id="22970297" data-title="s and y logo sy - design element or icon initial" data-src="https://cdn3.vectorstock.com/i/thumbs/02/97/s-and-y-logo-sy-design-element-or-icon-initial-vector-22970297.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/s-and-y-logo-sy-design-element-or-icon-initial-vector-22970297" title="s and y logo sy - design element or icon initial vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/02/97/s-and-y-logo-sy-design-element-or-icon-initial-vector-22970297.jpg" title="s and y logo sy - design element or icon initial" alt="s and y logo sy - design element or icon initial vector image"></noscript></a></li>
+						<li data-id="26900287" data-title="a letter logo with shadow effect" data-src="https://cdn3.vectorstock.com/i/thumbs/02/87/a-letter-logo-with-shadow-effect-vector-26900287.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-letter-logo-with-shadow-effect-vector-26900287" title="a letter logo with shadow effect vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/02/87/a-letter-logo-with-shadow-effect-vector-26900287.jpg" title="a letter logo with shadow effect" alt="a letter logo with shadow effect vector image"></noscript></a></li>
+						<li data-id="23797290" data-title="alphabet e for electronic and net in multi colors" data-src="https://cdn1.vectorstock.com/i/thumbs/72/90/alphabet-e-for-electronic-and-net-in-multi-colors-vector-23797290.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/alphabet-e-for-electronic-and-net-in-multi-colors-vector-23797290" title="alphabet e for electronic and net in multi colors vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/72/90/alphabet-e-for-electronic-and-net-in-multi-colors-vector-23797290.jpg" title="alphabet e for electronic and net in multi colors" alt="alphabet e for electronic and net in multi colors vector image"></noscript></a></li>
+						<li data-id="28470497" data-title="technology ai logo letters concept modern" data-src="https://cdn3.vectorstock.com/i/thumbs/04/97/technology-ai-logo-letters-concept-modern-vector-28470497.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/technology-ai-logo-letters-concept-modern-vector-28470497" title="technology ai logo letters concept modern vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/04/97/technology-ai-logo-letters-concept-modern-vector-28470497.jpg" title="technology ai logo letters concept modern" alt="technology ai logo letters concept modern vector image"></noscript></a></li>
+						<li data-id="20761289" data-title="letter v logo design template" data-src="https://cdn5.vectorstock.com/i/thumbs/12/89/letter-v-logo-design-template-vector-20761289.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/letter-v-logo-design-template-vector-20761289" title="letter v logo design template vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/12/89/letter-v-logo-design-template-vector-20761289.jpg" title="letter v logo design template" alt="letter v logo design template vector image"></noscript></a></li>
+						<li data-id="23774562" data-title="cd-logo" data-src="https://cdn3.vectorstock.com/i/thumbs/45/62/cd-logo-vector-23774562.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cd-logo-vector-23774562" title="cd-logo vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/45/62/cd-logo-vector-23774562.jpg" title="cd-logo" alt="cd-logo vector image"></noscript></a></li>
+						<li data-id="23382303" data-title="gold abstract ornament design logo" data-src="https://cdn4.vectorstock.com/i/thumbs/23/03/gold-abstract-ornament-design-logo-vector-23382303.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/gold-abstract-ornament-design-logo-vector-23382303" title="gold abstract ornament design logo vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/23/03/gold-abstract-ornament-design-logo-vector-23382303.jpg" title="gold abstract ornament design logo" alt="gold abstract ornament design logo vector image"></noscript></a></li>
+						<li data-id="21676452" data-title="alphabet celtic golden style in a set ijkl" data-src="https://cdn3.vectorstock.com/i/thumbs/64/52/alphabet-celtic-golden-style-in-a-set-ijkl-vector-21676452.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/alphabet-celtic-golden-style-in-a-set-ijkl-vector-21676452" title="alphabet celtic golden style in a set ijkl vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/64/52/alphabet-celtic-golden-style-in-a-set-ijkl-vector-21676452.jpg" title="alphabet celtic golden style in a set ijkl" alt="alphabet celtic golden style in a set ijkl vector image"></noscript></a></li>
+						<li data-id="21018125" data-title="letter m gaming" data-src="https://cdn1.vectorstock.com/i/thumbs/81/25/letter-m-gaming-vector-21018125.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/letter-m-gaming-vector-21018125" title="letter m gaming vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/81/25/letter-m-gaming-vector-21018125.jpg" title="letter m gaming" alt="letter m gaming vector image"></noscript></a></li>
+						<li data-id="25875447" data-title="g letter logo voluminous letter with facets 3d" data-src="https://cdn3.vectorstock.com/i/thumbs/54/47/g-letter-logo-voluminous-letter-with-facets-3d-vector-25875447.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/g-letter-logo-voluminous-letter-with-facets-3d-vector-25875447" title="g letter logo voluminous letter with facets 3d vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/54/47/g-letter-logo-voluminous-letter-with-facets-3d-vector-25875447.jpg" title="g letter logo voluminous letter with facets 3d" alt="g letter logo voluminous letter with facets 3d vector image"></noscript></a></li>
+						<li data-id="23458618" data-title="letter b icon alphabet symbol" data-src="https://cdn4.vectorstock.com/i/thumbs/86/18/letter-b-icon-alphabet-symbol-vector-23458618.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/letter-b-icon-alphabet-symbol-vector-23458618" title="letter b icon alphabet symbol vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/86/18/letter-b-icon-alphabet-symbol-vector-23458618.jpg" title="letter b icon alphabet symbol" alt="letter b icon alphabet symbol vector image"></noscript></a></li>
+						<li data-id="26734614" data-title="a letter logo design template" data-src="https://cdn5.vectorstock.com/i/thumbs/46/14/a-letter-logo-design-template-vector-26734614.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-letter-logo-design-template-vector-26734614" title="a letter logo design template vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/46/14/a-letter-logo-design-template-vector-26734614.jpg" title="a letter logo design template" alt="a letter logo design template vector image"></noscript></a></li>
+						<li data-id="31242740" data-title="alphabet 80 s retro font" data-src="https://cdn1.vectorstock.com/i/thumbs/27/40/alphabet-80-s-retro-font-vector-31242740.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/alphabet-80-s-retro-font-vector-31242740" title="alphabet 80 s retro font vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/27/40/alphabet-80-s-retro-font-vector-31242740.jpg" title="alphabet 80 s retro font" alt="alphabet 80 s retro font vector image"></noscript></a></li>
+						<li data-id="21488091" data-title="futuristic font alphabet letters creative minimal" data-src="https://cdn2.vectorstock.com/i/thumbs/80/91/futuristic-font-alphabet-letters-creative-minimal-vector-21488091.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/futuristic-font-alphabet-letters-creative-minimal-vector-21488091" title="futuristic font alphabet letters creative minimal vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/80/91/futuristic-font-alphabet-letters-creative-minimal-vector-21488091.jpg" title="futuristic font alphabet letters creative minimal" alt="futuristic font alphabet letters creative minimal vector image"></noscript></a></li>
+						<li data-id="26338574" data-title="80 s red neon retro font futuristic chrome" data-src="https://cdn5.vectorstock.com/i/thumbs/85/74/80-s-red-neon-retro-font-futuristic-chrome-vector-26338574.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/80-s-red-neon-retro-font-futuristic-chrome-vector-26338574" title="80 s red neon retro font futuristic chrome vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/85/74/80-s-red-neon-retro-font-futuristic-chrome-vector-26338574.jpg" title="80 s red neon retro font futuristic chrome" alt="80 s red neon retro font futuristic chrome vector image"></noscript></a></li>
+						<li data-id="23029139" data-title="3d font gold character" data-src="https://cdn5.vectorstock.com/i/thumbs/91/39/3d-font-gold-character-vector-23029139.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/3d-font-gold-character-vector-23029139" title="3d font gold character vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/91/39/3d-font-gold-character-vector-23029139.jpg" title="3d font gold character" alt="3d font gold character vector image"></noscript></a></li>
+						<li data-id="22327390" data-title="bright color pink and green" data-src="https://cdn1.vectorstock.com/i/thumbs/73/90/bright-color-pink-and-green-vector-22327390.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/bright-color-pink-and-green-vector-22327390" title="bright color pink and green vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/73/90/bright-color-pink-and-green-vector-22327390.jpg" title="bright color pink and green" alt="bright color pink and green vector image"></noscript></a></li>
+						<li data-id="27705020" data-title="3d realistic font white character question sign" data-src="https://cdn1.vectorstock.com/i/thumbs/50/20/3d-realistic-font-white-character-question-sign-vector-27705020.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/3d-realistic-font-white-character-question-sign-vector-27705020" title="3d realistic font white character question sign vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/50/20/3d-realistic-font-white-character-question-sign-vector-27705020.jpg" title="3d realistic font white character question sign" alt="3d realistic font white character question sign vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_27758030" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Dreamaze" rel="nofollow">Dreamaze</a></strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/80/19/initial-a-gaming-esport-logo-design-modern-vector-27758019.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-a-gaming-esport-logo-design-modern-vector-27758019" title="initial a gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/80/19/initial-a-gaming-esport-logo-design-modern-vector-27758019.jpg" title="initial a gaming esport logo design modern" alt="initial a gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/80/28/initial-b-gaming-esport-logo-design-modern-vector-27758028.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-b-gaming-esport-logo-design-modern-vector-27758028" title="initial b gaming esport logo design modern vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/80/28/initial-b-gaming-esport-logo-design-modern-vector-27758028.jpg" title="initial b gaming esport logo design modern" alt="initial b gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/80/32/initial-l-gaming-esport-logo-design-modern-vector-27758032.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-l-gaming-esport-logo-design-modern-vector-27758032" title="initial l gaming esport logo design modern vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/80/32/initial-l-gaming-esport-logo-design-modern-vector-27758032.jpg" title="initial l gaming esport logo design modern" alt="initial l gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/80/29/initial-i-gaming-esport-logo-design-modern-vector-27758029.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-i-gaming-esport-logo-design-modern-vector-27758029" title="initial i gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/80/29/initial-i-gaming-esport-logo-design-modern-vector-27758029.jpg" title="initial i gaming esport logo design modern" alt="initial i gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/80/23/initial-c-gaming-esport-logo-design-modern-vector-27758023.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-c-gaming-esport-logo-design-modern-vector-27758023" title="initial c gaming esport logo design modern vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/80/23/initial-c-gaming-esport-logo-design-modern-vector-27758023.jpg" title="initial c gaming esport logo design modern" alt="initial c gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/80/17/initial-e-gaming-esport-logo-design-modern-vector-27758017.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-e-gaming-esport-logo-design-modern-vector-27758017" title="initial e gaming esport logo design modern vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/80/17/initial-e-gaming-esport-logo-design-modern-vector-27758017.jpg" title="initial e gaming esport logo design modern" alt="initial e gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/80/26/initial-x-gaming-esport-logo-design-modern-vector-27758026.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-x-gaming-esport-logo-design-modern-vector-27758026" title="initial x gaming esport logo design modern vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/80/26/initial-x-gaming-esport-logo-design-modern-vector-27758026.jpg" title="initial x gaming esport logo design modern" alt="initial x gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/80/20/initial-s-gaming-esport-logo-design-modern-vector-27758020.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-s-gaming-esport-logo-design-modern-vector-27758020" title="initial s gaming esport logo design modern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/80/20/initial-s-gaming-esport-logo-design-modern-vector-27758020.jpg" title="initial s gaming esport logo design modern" alt="initial s gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/80/16/initial-g-gaming-esport-logo-design-modern-vector-27758016.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-g-gaming-esport-logo-design-modern-vector-27758016" title="initial g gaming esport logo design modern vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/80/16/initial-g-gaming-esport-logo-design-modern-vector-27758016.jpg" title="initial g gaming esport logo design modern" alt="initial g gaming esport logo design modern vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/80/27/initial-t-gaming-esport-logo-design-modern-vector-27758027.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-t-gaming-esport-logo-design-modern-vector-27758027" title="initial t gaming esport logo design modern vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/80/27/initial-t-gaming-esport-logo-design-modern-vector-27758027.jpg" title="initial t gaming esport logo design modern" alt="initial t gaming esport logo design modern vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="27758014" data-title="initial h gaming esport logo design modern" data-src="https://cdn5.vectorstock.com/i/thumbs/80/14/initial-h-gaming-esport-logo-design-modern-vector-27758014.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-h-gaming-esport-logo-design-modern-vector-27758014" title="initial h gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/80/14/initial-h-gaming-esport-logo-design-modern-vector-27758014.jpg" title="initial h gaming esport logo design modern" alt="initial h gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758025" data-title="initial y gaming esport logo design modern" data-src="https://cdn1.vectorstock.com/i/thumbs/80/25/initial-y-gaming-esport-logo-design-modern-vector-27758025.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-y-gaming-esport-logo-design-modern-vector-27758025" title="initial y gaming esport logo design modern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/80/25/initial-y-gaming-esport-logo-design-modern-vector-27758025.jpg" title="initial y gaming esport logo design modern" alt="initial y gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758031" data-title="initial k gaming esport logo design modern" data-src="https://cdn2.vectorstock.com/i/thumbs/80/31/initial-k-gaming-esport-logo-design-modern-vector-27758031.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-k-gaming-esport-logo-design-modern-vector-27758031" title="initial k gaming esport logo design modern vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/80/31/initial-k-gaming-esport-logo-design-modern-vector-27758031.jpg" title="initial k gaming esport logo design modern" alt="initial k gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758024" data-title="initial z gaming esport logo design modern" data-src="https://cdn5.vectorstock.com/i/thumbs/80/24/initial-z-gaming-esport-logo-design-modern-vector-27758024.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-z-gaming-esport-logo-design-modern-vector-27758024" title="initial z gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/80/24/initial-z-gaming-esport-logo-design-modern-vector-27758024.jpg" title="initial z gaming esport logo design modern" alt="initial z gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758021" data-title="initial r gaming esport logo design modern" data-src="https://cdn2.vectorstock.com/i/thumbs/80/21/initial-r-gaming-esport-logo-design-modern-vector-27758021.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-r-gaming-esport-logo-design-modern-vector-27758021" title="initial r gaming esport logo design modern vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/80/21/initial-r-gaming-esport-logo-design-modern-vector-27758021.jpg" title="initial r gaming esport logo design modern" alt="initial r gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758018" data-title="initial o or d gaming esport logo design modern" data-src="https://cdn4.vectorstock.com/i/thumbs/80/18/initial-o-or-d-gaming-esport-logo-design-modern-vector-27758018.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-o-or-d-gaming-esport-logo-design-modern-vector-27758018" title="initial o or d gaming esport logo design modern vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/18/initial-o-or-d-gaming-esport-logo-design-modern-vector-27758018.jpg" title="initial o or d gaming esport logo design modern" alt="initial o or d gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758022" data-title="initial p gaming esport logo design modern" data-src="https://cdn3.vectorstock.com/i/thumbs/80/22/initial-p-gaming-esport-logo-design-modern-vector-27758022.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-p-gaming-esport-logo-design-modern-vector-27758022" title="initial p gaming esport logo design modern vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/80/22/initial-p-gaming-esport-logo-design-modern-vector-27758022.jpg" title="initial p gaming esport logo design modern" alt="initial p gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758033" data-title="initial u gaming esport logo design modern" data-src="https://cdn4.vectorstock.com/i/thumbs/80/33/initial-u-gaming-esport-logo-design-modern-vector-27758033.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-u-gaming-esport-logo-design-modern-vector-27758033" title="initial u gaming esport logo design modern vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/80/33/initial-u-gaming-esport-logo-design-modern-vector-27758033.jpg" title="initial u gaming esport logo design modern" alt="initial u gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="27758015" data-title="initial f gaming esport logo design modern" data-src="https://cdn1.vectorstock.com/i/thumbs/80/15/initial-f-gaming-esport-logo-design-modern-vector-27758015.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/initial-f-gaming-esport-logo-design-modern-vector-27758015" title="initial f gaming esport logo design modern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/80/15/initial-f-gaming-esport-logo-design-modern-vector-27758015.jpg" title="initial f gaming esport logo design modern" alt="initial f gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403429" data-title="aj initial gaming esport logo design modern" data-src="https://cdn5.vectorstock.com/i/thumbs/34/29/aj-initial-gaming-esport-logo-design-modern-vector-28403429.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/aj-initial-gaming-esport-logo-design-modern-vector-28403429" title="aj initial gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/34/29/aj-initial-gaming-esport-logo-design-modern-vector-28403429.jpg" title="aj initial gaming esport logo design modern" alt="aj initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403405" data-title="aj initial gaming esport logo design modern" data-src="https://cdn1.vectorstock.com/i/thumbs/34/05/aj-initial-gaming-esport-logo-design-modern-vector-28403405.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/aj-initial-gaming-esport-logo-design-modern-vector-28403405" title="aj initial gaming esport logo design modern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/34/05/aj-initial-gaming-esport-logo-design-modern-vector-28403405.jpg" title="aj initial gaming esport logo design modern" alt="aj initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403360" data-title="aj initial gaming esport logo design modern" data-src="https://cdn1.vectorstock.com/i/thumbs/33/60/aj-initial-gaming-esport-logo-design-modern-vector-28403360.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/aj-initial-gaming-esport-logo-design-modern-vector-28403360" title="aj initial gaming esport logo design modern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/33/60/aj-initial-gaming-esport-logo-design-modern-vector-28403360.jpg" title="aj initial gaming esport logo design modern" alt="aj initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403451" data-title="aj initial gaming esport logo design modern" data-src="https://cdn2.vectorstock.com/i/thumbs/34/51/aj-initial-gaming-esport-logo-design-modern-vector-28403451.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/aj-initial-gaming-esport-logo-design-modern-vector-28403451" title="aj initial gaming esport logo design modern vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/34/51/aj-initial-gaming-esport-logo-design-modern-vector-28403451.jpg" title="aj initial gaming esport logo design modern" alt="aj initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403383" data-title="aj initial gaming esport logo design modern" data-src="https://cdn4.vectorstock.com/i/thumbs/33/83/aj-initial-gaming-esport-logo-design-modern-vector-28403383.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/aj-initial-gaming-esport-logo-design-modern-vector-28403383" title="aj initial gaming esport logo design modern vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/33/83/aj-initial-gaming-esport-logo-design-modern-vector-28403383.jpg" title="aj initial gaming esport logo design modern" alt="aj initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403427" data-title="ai initial gaming esport logo design modern" data-src="https://cdn3.vectorstock.com/i/thumbs/34/27/ai-initial-gaming-esport-logo-design-modern-vector-28403427.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/ai-initial-gaming-esport-logo-design-modern-vector-28403427" title="ai initial gaming esport logo design modern vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/34/27/ai-initial-gaming-esport-logo-design-modern-vector-28403427.jpg" title="ai initial gaming esport logo design modern" alt="ai initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403441" data-title="aa initial gaming esport logo design modern" data-src="https://cdn2.vectorstock.com/i/thumbs/34/41/aa-initial-gaming-esport-logo-design-modern-vector-28403441.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/aa-initial-gaming-esport-logo-design-modern-vector-28403441" title="aa initial gaming esport logo design modern vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/34/41/aa-initial-gaming-esport-logo-design-modern-vector-28403441.jpg" title="aa initial gaming esport logo design modern" alt="aa initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403393" data-title="ad ao initial gaming esport logo design modern" data-src="https://cdn4.vectorstock.com/i/thumbs/33/93/ad-ao-initial-gaming-esport-logo-design-modern-vector-28403393.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/ad-ao-initial-gaming-esport-logo-design-modern-vector-28403393" title="ad ao initial gaming esport logo design modern vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/33/93/ad-ao-initial-gaming-esport-logo-design-modern-vector-28403393.jpg" title="ad ao initial gaming esport logo design modern" alt="ad ao initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403434" data-title="as initial gaming esport logo design modern" data-src="https://cdn5.vectorstock.com/i/thumbs/34/34/as-initial-gaming-esport-logo-design-modern-vector-28403434.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/as-initial-gaming-esport-logo-design-modern-vector-28403434" title="as initial gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/34/34/as-initial-gaming-esport-logo-design-modern-vector-28403434.jpg" title="as initial gaming esport logo design modern" alt="as initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403369" data-title="ax initial gaming esport logo design modern" data-src="https://cdn5.vectorstock.com/i/thumbs/33/69/ax-initial-gaming-esport-logo-design-modern-vector-28403369.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/ax-initial-gaming-esport-logo-design-modern-vector-28403369" title="ax initial gaming esport logo design modern vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/33/69/ax-initial-gaming-esport-logo-design-modern-vector-28403369.jpg" title="ax initial gaming esport logo design modern" alt="ax initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li data-id="28403385" data-title="al initial gaming esport logo design modern" data-src="https://cdn1.vectorstock.com/i/thumbs/33/85/al-initial-gaming-esport-logo-design-modern-vector-28403385.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/al-initial-gaming-esport-logo-design-modern-vector-28403385" title="al initial gaming esport logo design modern vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/33/85/al-initial-gaming-esport-logo-design-modern-vector-28403385.jpg" title="al initial gaming esport logo design modern" alt="al initial gaming esport logo design modern vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Dreamaze" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/gaming-vectors">Gaming</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/logo-vectors">Logo</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/esports-vectors">Esports</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/streamer-vectors">Streamer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/neon-vectors">Neon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/text-vectors">Text</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/font-vectors">Font</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/modern-vectors">Modern</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/template-vectors">Template</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/element-vectors">Element</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/initial-vectors">Initial</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/letter-vectors">Letter</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/j-vectors">J</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/initials-vectors">Initials</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/logos-vectors">Logos</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/emblem-vectors">Emblem</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/art-vectors">Art</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/graphic-vectors">Graphic</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/illustrator-vectors">Illustrator</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/3d-vectors">3d</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/lettering-vectors">Lettering</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/alphabet-vectors">Alphabet</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/idea-vectors">Idea</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/abstract-vectors">Abstract</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/brand-vectors">Brand</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/identity-vectors">Identity</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/concept-vectors">Concept</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/company-vectors">Company</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/logotype-vectors">Logotype</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/creative-vectors">Creative</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/name-vectors">Name</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/blue-vectors">Blue</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/typography-vectors">Typography</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/stylish-vectors">Stylish</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/type-vectors">Type</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/monogram-vectors">Monogram</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/style-vectors">Style</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sport-vectors">Sport</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/capital-vectors">Capital</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/letters-vectors">Letters</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/team-vectors">Team</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+					<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/royalty-free-vector/initial-j-gaming-esport-logo-design-modern-vector-27758030?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="http://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="http://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2020. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div></footer>
+
+
+	<script src="./logo1_files/f.txt"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":35,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+</body></html>
